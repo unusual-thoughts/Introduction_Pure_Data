@@ -1,0 +1,18 @@
+#N canvas 421 239 422 239 12;
+#X obj 186 28 osc~ 440;
+#X obj 160 168 dac~;
+#X obj 187 81 *~;
+#X obj 208 53 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X text 266 26 source;
+#X text 232 49 mute;
+#X text 223 170 hauts-parleurs;
+#X obj 30 69 hsl 128 30 0 1 0 0 empty empty empty -2 -8 1 10 -4032
+-1 -1 0 1;
+#X obj 164 125 *~;
+#X connect 0 0 2 0;
+#X connect 2 0 8 1;
+#X connect 3 0 2 1;
+#X connect 7 0 8 0;
+#X connect 8 0 1 0;
+#X connect 8 0 1 1;

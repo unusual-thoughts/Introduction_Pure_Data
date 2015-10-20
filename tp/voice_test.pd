@@ -1,0 +1,7 @@
+#N canvas 282 166 450 300 10;
+#X obj 76 86 voice 50 250 500;
+#X obj 78 157 dac~;
+#X msg 75 37 60 127;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
+#X connect 2 0 0 0;
