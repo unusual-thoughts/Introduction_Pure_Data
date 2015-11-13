@@ -1,0 +1,14 @@
+#N canvas 519 261 241 232 10;
+#X obj -1136 96 mtof;
+#X obj -1136 118 osc~;
+#X obj -1173 25 inlet;
+#X obj -1171 181 outlet~;
+#X obj -1173 60 unpack f f f;
+#X obj -1171 144 voice_any 20 800 50;
+#X connect 0 0 1 0;
+#X connect 1 0 5 1;
+#X connect 2 0 4 0;
+#X connect 4 0 5 0;
+#X connect 4 1 0 0;
+#X connect 4 2 5 3;
+#X connect 5 0 3 0;

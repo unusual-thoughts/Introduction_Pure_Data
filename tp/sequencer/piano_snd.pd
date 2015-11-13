@@ -1,0 +1,18 @@
+#N canvas 0 50 450 300 10;
+#X obj 77 178 readsf~;
+#X msg 181 112 open steinwayA.wav;
+#X msg 54 137 1;
+#X obj 72 42 inlet;
+#X obj 130 240 outlet~;
+#X obj 125 113 / 127;
+#X obj 130 211 *~;
+#X obj 67 72 t b f b;
+#X connect 0 0 6 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
+#X connect 3 0 7 0;
+#X connect 5 0 6 1;
+#X connect 6 0 4 0;
+#X connect 7 0 2 0;
+#X connect 7 1 5 0;
+#X connect 7 2 1 0;
